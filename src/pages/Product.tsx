@@ -6,7 +6,7 @@ const Product = () => {
   console.log(state)
 
   return (
-    <div>
+    <div className='text-center mt-5'>
      <h3>Product Id : {state.id}</h3>
      <h3>Product Name : {state.name}</h3>
      <h3>Product Category : {state.category}</h3>
